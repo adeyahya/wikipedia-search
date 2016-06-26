@@ -43,7 +43,7 @@ class List extends React.Component {
 				</ul>
 				
 				<div id="detailLoader">
-					<img src="infinity.gif"/>
+					<img src="wikipedia-search/infinity.gif"/>
 				</div>
 
 				<div id="details" onClick={this._closeDetail.bind(this)}>

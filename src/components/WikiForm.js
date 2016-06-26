@@ -40,7 +40,7 @@ class WikiForm extends React.Component {
 				<br/>
 
 				<div id="loader">
-					<img src="infinity.gif" width="70px"/>
+					<img src="wikipedia-search/infinity.gif" width="70px"/>
 				</div>
 
 				<List lists={this.state.lists}/>
