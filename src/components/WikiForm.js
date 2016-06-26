@@ -31,7 +31,7 @@ class WikiForm extends React.Component {
 					<div className="input-group">
 						<input ref="keyword" type="text" className="form-control input-lg" placeholder="Keywords"/>
 						<span className="input-group-btn">
-							<button type="submit" className="btn btn-primary btn-lg">
+							<button type="submit" className="btn btn-default btn-lg">
 								Search
 							</button>
 						</span>
