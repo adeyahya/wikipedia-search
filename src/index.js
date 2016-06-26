@@ -1,6 +1,7 @@
 import React from "react";
 import {render} from "react-dom";
 window.$ = window.jQuery = require("jquery");
+require("./sass/app.scss");
 
 import WikiForm from "./components/WikiForm.js";
 

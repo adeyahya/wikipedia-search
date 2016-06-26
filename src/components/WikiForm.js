@@ -27,7 +27,7 @@ class WikiForm extends React.Component {
 	render() {
 		return (
 			<div>
-				<form onClick={this._handleSubmit.bind(this)}>
+				<form onSubmit={this._handleSubmit.bind(this)}>
 					<div className="input-group">
 						<input ref="keyword" type="text" className="form-control input-lg" placeholder="Keywords"/>
 						<span className="input-group-btn">
